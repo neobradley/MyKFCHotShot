@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+<id>1</id>
+<batch>1</batch>
+<price>35</price>
+<net>30</net>
+<date>2011-11-10</date>
+</item>
+
+<item>
+<id>2</id>
+<batch>2</batch>
+<price>70</price>
+<net>60</net>
+<date>2011-11-11</date>
+</item>

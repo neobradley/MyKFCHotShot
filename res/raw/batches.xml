@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+<id>1</id>
+<stock>1</stock>
+<qty>1</qty>
+<price>35</price>
+<net>30</net>
+</item>
+<item>
+<id>2</id>
+<stock>1</stock>
+<qty>2</qty>
+<price>70</price>
+<net>60</net>
+</item>

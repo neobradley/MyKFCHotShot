@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#000"
+    android:stretchColumns="*,*"
+    android:weightSum="6" >
+
+<!-- <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Portrait" android:layout_weight="0.5"/> -->
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:weightSum="3" >
+
+        <RelativeLayout
+            android:id="@+id/layoutViewStock"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="#fff" >
+
+            <ImageView
+                android:id="@+id/imgViewStock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_menu_checksupply" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txtViewStock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgViewStock"
+                android:layout_centerHorizontal="true"
+                android:text="@string/viewStock" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutViewSeller"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="#fff" >
+
+            <ImageView
+                android:id="@+id/imgViewSeller"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_menu_bestseller" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txtViewSeller"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgViewSeller"
+                android:layout_centerHorizontal="true"
+                android:text="@string/viewSeller" >
+            </TextView>
+        </RelativeLayout>
+.
+    
+
+        <RelativeLayout
+            android:id="@+id/layoutSuppPB"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="#fff" >
+
+            <ImageView
+                android:id="@+id/imgSuppPB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_menu_contacts" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txtSuppPB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgSuppPB"
+                android:layout_centerHorizontal="true"
+                android:text="@string/suppPB" >
+            </TextView>
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:weightSum="3" >
+
+        <RelativeLayout
+            android:id="@+id/layoutCustSMS"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="#fff" >
+
+            <ImageView
+                android:id="@+id/imgCustSMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_menu_smscustomer" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txtCustSMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgCustSMS"
+                android:layout_centerHorizontal="true"
+                android:text="@string/custSMS" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutSync"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="#fff" >
+
+            <ImageView
+                android:id="@+id/imgSync"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_menu_sync" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txtSync"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgSync"
+                android:layout_centerHorizontal="true"
+                android:text="@string/sync" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutMyInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="#fff" >
+
+            <ImageView
+                android:id="@+id/imgMyInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_menu_aboutus" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txtMyInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgMyInfo"
+                android:layout_centerHorizontal="true"
+                android:text="@string/myInfo" >
+            </TextView>
+        </RelativeLayout>
+    </TableRow>
+
+</TableLayout>

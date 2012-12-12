@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--<item android:id="@+id/menu1" android:title="@string/sync"
+	android:icon="@drawable/ic_menu_sync"></item>-->
+	<item android:id="@+id/menu1" android:title="@string/setting"
+	android:icon="@drawable/ic_menu_settings"></item>
+	<!-- <item android:id="@+id/menu3" android:title="@string/find"
+	android:icon="@drawable/ic_menu_search"></item>-->
+	<item android:id="@+id/menu2" android:title="@string/help"></item>
+	<item android:id="@+id/menu3" android:title="@string/history"></item>
+	<item android:id="@+id/menu4" android:title="@string/about"
+	android:icon="@drawable/ic_menu_aboutus"></item>
+</menu>

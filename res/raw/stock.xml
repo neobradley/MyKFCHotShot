@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+<id>1</id>
+<name>Fries</name>
+<unit>Pack</unit>
+<price>80</price>
+<qty>2</qty>
+<datePub>2011-10-31</datePub>
+<exp>2011-11-15</exp>
+</item>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">KFC HotShot</string>
+    <string name="viewStock">View Stocks</string>
+    <string name="viewSeller">View Top Sellers</string>
+    <string name="suppPB">Contact Suppliers</string>
+    <string name="custSMS">SMS Customers</string>
+    <string name="sync">Sync</string>
+    <string name="myInfo">My Info</string>
+    <string name="exit">Exit</string>
+    <string name="searchcontact">Search Contact</string>
+    <string name="createContact">Contact Information</string>
+    <string name="setting">Setting</string>
+    <string name="find">Find</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="sendSMS">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="contactname">Name     :</string>
+    <string name="contactnumber">Number :</string>
+    <string name="save">Save</string>
+    <string name="password">Password:</string>
+    <string name="login">Login</string>
+    <string name="order">A-Z</string>
+    <string name="orderby">Order By :</string>
+    <string name="sms_editmsg">Edit Message</string>
+    <string name="reset">Reset</string>
+    <string name="history">SMS History</string>
+    <string name="appdever">Lai, Yuyu\nOngkingco, Calvin Mitchell</string>
+    <string name="appdevrel">De La Salle University -\nCollege of Computer Studies</string>
+    <string name="appdevdate">Date Created : 2011-11-16 (v1.0)</string>
+    <string name="helpdetail">Detail</string>
+    <string name="contactemail">Email     :</string>
+    <string name="check_sync">Auto Sync</string>
+    <string name="sync_ten">Every 10 Minutes</string>
+    <string name="sync_hour">Every Hour</string>
+    <string name="sync_day">Everyday</string>
+</resources>
